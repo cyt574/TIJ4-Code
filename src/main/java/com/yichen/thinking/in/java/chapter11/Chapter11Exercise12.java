@@ -2,7 +2,6 @@ package com.yichen.thinking.in.java.chapter11;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 

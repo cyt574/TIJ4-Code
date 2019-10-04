@@ -15,7 +15,7 @@ class Gerbil {
 public class Chapter11Exercise01 {
 
 	public static void main(String[] args) {
-		ArrayList<Gerbil> gerbils = new ArrayList(); 
+		ArrayList<Gerbil> gerbils = new ArrayList<Gerbil>(); 
 		gerbils.add(new Gerbil("1"));
 		gerbils.add(new Gerbil("2"));
 		gerbils.add(new Gerbil("3"));

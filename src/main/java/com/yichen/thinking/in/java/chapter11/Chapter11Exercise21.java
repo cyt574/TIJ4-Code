@@ -6,9 +6,6 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
-import java.util.TreeSet;
 
 import net.mindview.util.TextFile;
 
@@ -18,7 +15,7 @@ public class Chapter11Exercise21 {
 		TextFile textFile = new TextFile("UniqueWords.java", "\\W+");
 	    Map<String,Integer> map = new HashMap<String, Integer>();
 	    
-	    for (Iterator iterator = textFile.iterator(); iterator.hasNext();) {
+	    for (Iterator<String> iterator = textFile.iterator(); iterator.hasNext();) {
 			String string = (String) iterator.next();
 			Integer count = map.get(string);
 			map.put(string, count==null? 1:count+1);
