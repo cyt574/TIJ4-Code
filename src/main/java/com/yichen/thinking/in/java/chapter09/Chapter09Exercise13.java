@@ -4,11 +4,11 @@ interface Interface2 {
 	
 }
 
-interface Interface3 extends Interface2{
+interface Interface3 extends Interface2 {
 	
 }
 
-interface Interface4 extends Interface2{
+interface Interface4 extends Interface2 {
 	
 }
 

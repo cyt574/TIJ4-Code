@@ -7,7 +7,7 @@ interface Interface1 {
 	void method3();
 }
 
-class Implement1 implements Interface1{
+class Implement1 implements Interface1 {
 
 	@Override
 	public void method1() {
